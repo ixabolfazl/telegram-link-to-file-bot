@@ -1,0 +1,14 @@
+{
+  "name": "telegram-download-bot",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Telegram bot that downloads direct links up to 50MB",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.60.0"
+  }
+}
